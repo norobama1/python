@@ -1,0 +1,6 @@
+print('''Once there was an elephant,
+        Who tried to use the telephant—
+           No! No! I mean an elephone
+          Who tried to use the telephone—''')
+          
+          # we use (''') this instead of ("") while printing multiply lines in a print statement 
