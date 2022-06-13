@@ -1,0 +1,10 @@
+a = input("Enter the value of First Number:")
+b = input("Enter the value of Second Number:")
+
+# we have to convert a and b from st to int
+
+a = int(a)
+b = int(b)
+
+avg = (a+b)/2
+print("The value of the average of a and b is",avg)
