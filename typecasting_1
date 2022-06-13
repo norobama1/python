@@ -1,0 +1,11 @@
+a = "3453"
+a = int(a)
+print(type(a))
+print(a + 5)
+
+
+#this string cannot be typecast into int
+
+b = "aja2211"
+b = int(b)
+print(type(b))
