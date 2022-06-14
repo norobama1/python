@@ -1,0 +1,21 @@
+story = "once upon a time there was a guy named Naman who was very sweet"
+
+#string functions
+
+#1 lenght of string
+print(len(story))
+
+#2 string ending
+print(story.endswith("sweet"))
+
+#3 counting of characters
+print(story.count("a"))
+
+#4 string capitalize 
+print(story.capitalize())
+
+#5 find a word in string  - only find the first occurance
+print(story.find("Naman"))
+
+#6 replace - replaces all the old words with new words
+print(story.replace("Naman", "Norobama"))
