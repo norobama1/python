@@ -1,0 +1,20 @@
+name = "Naman"
+greeting ="GoodMorning, "
+print(type(name))
+
+#concatenating two strings
+print(greeting + name)
+
+#value of string at each postion
+print(name[2])
+
+#string slicing
+print(name[0:3])
+print(name[1:5])
+
+#negative Indices
+c = name[-4:-1] #this is same as name[1:4]
+print(c)
+
+#slicing with skip values
+print(greeting[1:8:2])
