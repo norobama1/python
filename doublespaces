@@ -1,0 +1,7 @@
+st = "This string contains  double spaces  and    hope you are okay"
+doublespace = st.find("  ")
+print(doublespace)
+
+
+st= st.replace("  "," ")
+print(st)
