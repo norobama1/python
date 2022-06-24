@@ -26,3 +26,11 @@ print(b)
 #to clear a set
 b.clear()
 print(b)
+
+s = {18,"18",18.0}
+print(s)
+print(len(s))
+# lenght is showing two because 18 and 18.0 is taken as same value
+
+n = (18,"18",18.1)
+print(n)
